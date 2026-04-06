@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;  
+}
+
+h1{
+    text-align: center;
+}
+
+.input{
+    padding: 8px;
+    margin: 5px;
+}
+
+button{
+    padding: 8px;
+    margin: 5px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    background-color: yellowgreen;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+purchased{
+    text-decoration: line-through;
+    background: #f0f0f0;
+}
