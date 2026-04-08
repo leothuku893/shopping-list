@@ -6,13 +6,13 @@ if (!isBrowser) {
     console.warn('shopping-list/index.js is intended for browser use only.');
 } else {
     const storage = window.localStorage;
-    const nameInput = document.getElementById('name');
-    const costInput = document.getElementById('cost');
-    const list = document.getElementById('list');
-    const total = document.getElementById('total');
+    const nameInput = document.getElementById('itemInput');
+    const costInput = document.getElementById('itemPrice');
+    const list = document.getElementById('shoppingList');
+    const total = document.getElementById('totalCost');
 
-    const addButton = document.getElementById('add');
-    const clearButton = document.getElementById('clear');
+    const addButton = document.getElementById('addItemButton');
+    const clearButton = document.getElementById('sortListButton');
 
     items = JSON.parse(storage.getItem('items')) || [];
 
