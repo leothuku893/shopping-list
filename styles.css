@@ -1,6 +1,8 @@
 body{
     font-family: Arial;
-    background-image: url('https://thumbs.dreamstime.com/b/linear-flat-online-shopping-website-vector-hero-image-illustration-e-commerce-business-sale-consumerism-concept-laptop-77654581.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://www.shutterstock.com/image-vector/shopping-online-on-mobile-application-260nw-1697895496.jpg');
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -40,7 +42,7 @@ li{
     display: flex;
     justify-content: space-between;
 }
-purchased{
+.purchased{
     text-decoration: line-through;
     background: #f0f0f0;
 }
