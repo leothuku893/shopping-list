@@ -1,48 +1,68 @@
-body{
+body {
+  font-family: Arial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://www.shutterstock.com/image-vector/shopping-online-on-mobile-application-260nw-1697895496.jpg");
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: aqua;
+  padding: 20px;
+  body {
     font-family: Arial;
+    body {
+      font-family: Arial;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("https://www.shutterstock.com/image-vector/shopping-online-on-mobile-application-260nw-1697895496.jpg");
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('https://www.shutterstock.com/image-vector/shopping-online-on-mobile-application-260nw-1697895496.jpg');
+    background-image: url("https://www.shutterstock.com/image-vector/shopping-online-on-mobile-application-260nw-1697895496.jpg");
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+  }
+  border-radius: 8px;
+  width: 400px;
 }
 
-.container{
-    background-color: aqua;
-    padding: 20px;
-    border-radius: 8px;
-    width: 400px;  
+h1 {
+  text-align: center;
 }
 
-h1{
-    text-align: center;
+.input {
+  padding: 8px;
+  margin: 5px;
 }
 
-.input{
-    padding: 8px;
-    margin: 5px;
+button {
+  padding: 8px;
+  margin: 5px;
 }
 
-button{
-    padding: 8px;
-    margin: 5px;
+ul {
+  padding: 0;
 }
 
-ul{
-    padding: 0;
+li {
+  list-style: none;
+  background-color: yellowgreen;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
-
-li{
-    list-style: none;
-    background-color: yellowgreen;
-    margin: 5px 0;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.purchased{
-    text-decoration: line-through;
-    background: #f0f0f0;
+.purchased {
+  text-decoration: line-through;
+  background: #f0f0f0;
 }
